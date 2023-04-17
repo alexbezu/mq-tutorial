@@ -1,6 +1,6 @@
 A simple message queue server (message broker) tutorial.
 
-In this tutorial, we will create a simple message queue server, producer and consumer. And then modify OpenSource DB to extend its functionality with message queue server.
+In this tutorial, we will create a simple message queue server, producer and consumer. And then modify OpenSource DataBase immuDB to extend its functionality with message queue server.
 
 1. What is a message queue? It has been used in Event-driven architecture, microservice, etc. Let's look at existing examples:
 - Redis:
