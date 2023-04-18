@@ -5,11 +5,12 @@ In this tutorial, we will create a simple message queue server, producer and con
 1. What is a message queue? It has been used in Event-driven architecture, microservice, etc. Let's look at existing examples:
 - Redis:
     * start redis server
-    * redis-cli blpop
-    * redis-cli rpush
+    * redis-cli blpop (consumer)
+    * redis-cli rpush (producer)
 - RabbitMQ:
-    * start rabbitmq server
-    * go run examples.go
+    * start rabbitmq server (see the link with tutorial bellow)
+    * run https://github.com/rabbitmq/rabbitmq-tutorials/blob/main/go/receive.go (consumer)
+    * run https://github.com/rabbitmq/rabbitmq-tutorials/blob/main/go/send.go (producer)
 
 2. Why do we need our own MQ broker if it exists already? 
 - Extend the functionality of an existing DB (immudb in this example)
