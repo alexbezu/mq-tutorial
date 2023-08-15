@@ -1,3 +1,5 @@
+//go:build receiver || sender
+
 package main
 
 import (
